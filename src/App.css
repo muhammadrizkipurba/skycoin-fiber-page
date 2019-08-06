@@ -49,7 +49,7 @@ body {
 
 .wrapper .small-description .left,
 .wrapper .small-description .right {
-  padding: 0px 35px 0 0;
+  padding: 0px auto;
 }
 
 /* -------------------------------------- */
@@ -64,13 +64,13 @@ body {
 .wrapper .adventages-point .blue-block {
   align-content: center;
   align-items: center;
-  padding-right: 35px;
 }
 
 .wrapper .adventages-point .blue-block {
   background-color: #f4f9ff;
-  padding-top: 20px;
+  padding: 35px 20px;
 }
+
 
 .wrapper .adventages-point .image-content {
   padding:0 auto;
@@ -107,6 +107,13 @@ body {
 @media screen and (min-width: 40em) {
   .App h2 {
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper .adventages-point .blue-block {
+    margin-left: -32px!important;
+    margin-right: -32px!important;
   }
 }
 

@@ -9,7 +9,7 @@ function FiberAdventages(props) {
         <div className="image-content col-lg-4 col-sm-12">
           <img src={content.img} style={{ maxWidth: "200px" }} alt="fiber" />
         </div>
-        <div className="text-content col-lg-8 col-sm-12 pr-0">
+        <div className="text-content col-lg-8 col-sm-12">
           <h3>{content.title}</h3>
           <p>{content.description}</p>
         </div>
