@@ -1,0 +1,115 @@
+body {
+  width: 100%
+}
+
+.App {
+  font-family: "Roboto", sans-serif;
+}
+
+.App .wrapper {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 70rem;
+  padding: 0 2rem;
+}
+
+
+/* -------------------------------------- */
+/* ----------- WHAT IS FIBER ------------ */
+/* -------------------------------------- */
+.App h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  margin: 32px 0 8px;
+}
+
+.App .wrapper .secondary-title {
+  font-size: 14px;
+  font-weight: 400 !important;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #B6C5D6;
+}
+
+.wrapper .fiber-description {
+  padding: 0.75rem 0 0.75rem 2rem;
+  border-left: 3px solid #92a4ba;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  margin: 50px 0 50px 2px;
+}
+
+.wrapper .small-description {
+  margin: 0 0 32px;
+  text-align: justify;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+}
+
+.wrapper .small-description .left,
+.wrapper .small-description .right {
+  padding: 0px 35px 0 0;
+}
+
+/* -------------------------------------- */
+/* ------------- ADVENTAGES ------------- */
+/* -------------------------------------- */
+
+.wrapper .adventages-point .normal-block {
+  padding: 32px 32px 32px 0;
+}
+
+.wrapper .adventages-point .normal-block,
+.wrapper .adventages-point .blue-block {
+  align-content: center;
+  align-items: center;
+  padding-right: 35px;
+}
+
+.wrapper .adventages-point .blue-block {
+  background-color: #f4f9ff;
+  padding-top: 20px;
+}
+
+.wrapper .adventages-point .image-content {
+  padding:0 auto;
+  min-height: 219px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.wrapper .adventages-point .blue-block .image-content {
+  margin-top: -20px;
+}
+
+.wrapper .adventages-point .text-content {
+  justify-content: center;
+  align-items: center;  
+  line-height: 1.75rem;
+}
+
+.wrapper .adventages-point .text-content h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.wrapper .adventages-point .text-content p {
+  margin-top: 20px;
+  font-size: 14px;
+  letter-spacing: 0.75px;
+}
+
+@media screen and (min-width: 40em) {
+  .App h2 {
+    font-size: 30px;
+  }
+}
+
+
+
+
